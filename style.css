@@ -1,0 +1,159 @@
+ :root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f2ef;    
+    font-family: 'Roboto', sans-serif;
+} 
+header{
+    height: 60px;
+}
+.container{
+    width: 770px;
+    margin-top: -10px;
+    padding: 0px;
+}
+.bg-white{
+    background-color: #FFF;
+}
+nav {
+    display: flex;
+    padding: 15px 19px 0px;
+    background-color: #FFF;
+}
+
+nav div {
+    display: flex;
+    margin-right: 4px;
+}
+.iconeLinkedIn{
+    height: 34px;
+    width: 34px;
+}
+
+ul{
+    display: flex;
+    margin-top: 0px;
+}
+ul li{
+    font-size: 10px;
+    list-style: none;
+    text-align: center;
+    padding: 0px 11px;
+    width: 50px;
+    white-space: nowrap;
+}
+
+li img{
+    height: 20px;
+    width: 20px;
+}
+
+.eu{
+    border-radius: 13px;
+    height: 26px;
+    width: 26px;
+}
+input[type=text]{
+    padding: 0px 14px;
+    height: 34px;
+    background-color: #f3f2ef; 
+    border:none;
+    margin-left: 7px;
+    border-radius: 5px;
+}
+
+/* Main */
+main{
+    padding: 10px 20px;
+}
+section{
+    margin: 30px 0px;
+    border-radius: 5px;
+    
+}
+.conteudo{
+    padding: 10px 25px;
+}
+.bg-principal{
+    background-image: url(img/backgroundLinkedIn.jpg);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 230px;
+}
+.img-circular{
+    border-radius: 100px;
+    width: 135px;
+    border: solid  #FFF;
+}
+.img-principal{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 4%;
+}
+.negrito{
+    font-weight: bolds;
+}
+p{
+    padding: 0px;
+    margin: 0px;
+}
+.cinza{ 
+    color: darkgray;
+    font-size: 13px;
+    margin-top: 5px;
+}
+input[type=submit]{
+    border-radius: 20px;
+    padding: 2px;
+    padding: 6px 16px;
+    cursor: pointer;
+}
+.bg-azul{
+    background-color: #0000CD;
+    color: #fff;
+    font-size: 11px;
+    margin: 10px 0px ;
+    border: solid 1px #0000CD;
+    
+}
+
+.bg-branco{
+    background-color: #fff;
+    color: #696969;
+    font-size: 11px;
+    border: solid 1px  #696969;
+}
+
+
+/* .bg-branco: houver{
+    
+} */
+.blocos-desc{
+    display: flex;
+}
+.col-1{
+    padding: 10px;
+}
+.col-1 img{
+    width: 35px;
+}
+.title-1{
+    font-weight: bold;
+}
+.title-2{
+    font-weight: 600;
+    font-size: 12px;
+}
+.title-3{
+    color: darkgray;
+    font-size: 13px;
+}
+.border-botton{
+    border-bottom: solid #DCDCDC 1px ;
+    width: 100%;
+}
+.desc-funcoes{
+    margin: 20px;
+    font-size: 13px;
+}
