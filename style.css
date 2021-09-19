@@ -128,6 +128,9 @@ input[type=submit]{
     border: solid 1px  #696969;
 }
 
+.bg-cinza:hover {
+    background-color: #0000001f;
+}
 
 /* .bg-branco: houver{
     
